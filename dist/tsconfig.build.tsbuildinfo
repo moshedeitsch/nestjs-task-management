@@ -910,7 +910,7 @@
         "signature": "2aa6e1c2d60503d26eaa386f07f68542d826aa556fc2d4cb78e2f72560d2aba1"
       },
       "../src/tasks/dto/create-task-dto.ts": {
-        "version": "3b696c8fb77178765df56b9c87d6303145c364ea33344bd4c17be352b522d807",
+        "version": "d46ee6efd7caa00400642c67c16a0fc135e96054fcfdd08fda333defe6eeb635",
         "signature": "b1d26f03607e121c7317f85d8725d2562ea98694c85f768a3db85be2488756e3"
       },
       "../src/tasks/dto/get-task-filter.dto.ts": {
@@ -1408,6 +1408,10 @@
       "../node_modules/@types/uglify-js/index.d.ts": {
         "version": "bdc18dd47aea9977e419a8e03e7e5d04ed8cf8265e014d8788848b76b969cbba",
         "signature": "bdc18dd47aea9977e419a8e03e7e5d04ed8cf8265e014d8788848b76b969cbba"
+      },
+      "../node_modules/@types/validator/index.d.ts": {
+        "version": "930f4dcf2bf161cde0f737e6fb1ee8ad1c54f3b7bdf64d18adc4c2521f48aaa8",
+        "signature": "930f4dcf2bf161cde0f737e6fb1ee8ad1c54f3b7bdf64d18adc4c2521f48aaa8"
       },
       "../node_modules/@types/webpack-sources/index.d.ts": {
         "version": "ab95c4625e16499b8181731576984bcdfd0438a9a87b5f7de8299de5c912a241",
@@ -4236,6 +4240,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../node_modules/@types/validator/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/crypto.d.ts",
         "../node_modules/source-map/source-map.d.ts",
@@ -7017,6 +7027,12 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../node_modules/@types/validator/index.d.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@types/webpack-sources/index.d.ts": [
         "../node_modules/@types/node/crypto.d.ts",
         "../node_modules/source-map/source-map.d.ts",
@@ -7281,8 +7297,8 @@
       "../node_modules/@nestjs/common/utils/index.d.ts",
       "../node_modules/@nestjs/common/index.d.ts",
       "../src/tasks/task.model.ts",
-      "../src/tasks/dto/create-task-dto.ts",
       "../src/tasks/dto/get-task-filter.dto.ts",
+      "../src/tasks/tasks.service.ts",
       "../src/tasks/tasks.controller.ts",
       "../src/tasks/tasks.module.ts",
       "../src/app.module.ts",
@@ -7405,11 +7421,12 @@
       "../node_modules/@types/tapable/index.d.ts",
       "../node_modules/source-map/source-map.d.ts",
       "../node_modules/@types/uglify-js/index.d.ts",
+      "../node_modules/@types/validator/index.d.ts",
       "../node_modules/@types/webpack-sources/index.d.ts",
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.service.ts"
+      "../src/tasks/dto/create-task-dto.ts"
     ]
   },
   "version": "3.8.3"
