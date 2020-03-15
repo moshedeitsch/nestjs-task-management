@@ -913,13 +913,17 @@
         "version": "3b696c8fb77178765df56b9c87d6303145c364ea33344bd4c17be352b522d807",
         "signature": "b1d26f03607e121c7317f85d8725d2562ea98694c85f768a3db85be2488756e3"
       },
+      "../src/tasks/dto/get-task-filter.dto.ts": {
+        "version": "478f9a785bb255f1427d9269a6752969bb11c67d901f7bdb950d2141605c4658",
+        "signature": "a286838eae1059366d24080969115ed1aead9c4bc801624584c7f4df35bebba4"
+      },
       "../src/tasks/tasks.service.ts": {
-        "version": "b896be1390dfebffba1232e20fe2121e59b49c6196a79b21c731f6bab274250d",
-        "signature": "f3151136ca4549b7b098b97607fb8fe7969765b05ec6cca855ca877886aefc38"
+        "version": "f108ee2c7635c5946cb90b541f31b6aef4c02dfd2367bbdb417da0c927d33329",
+        "signature": "6d27c4b956b1f0232cb458e734e7b6c5e950a30f8a2a8c8d477c2130906b53da"
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "917ecc05e337aab234cbc57b7d1db4e82494c55f87f51391815f1dc0ff74fae1",
-        "signature": "0f002d1e3b3bee69ede6b14eb7de1ce184aa6402c28e9399157f9d8368ce137d"
+        "version": "7bd49aac99bb38d3a7d411303b0ac6dfe3f157778ee15154aa376df85449b833",
+        "signature": "e7980e457c2f98599079cee199e795d394802e1ff78002f5fcfdd71d59a5848b"
       },
       "../src/tasks/tasks.module.ts": {
         "version": "3266a63526e1da22246a5729cb07a08c3d82d0a3cf56d44627009d3436f84efc",
@@ -3237,10 +3241,18 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/dto/get-task-filter.dto.ts": [
+        "../src/tasks/task.model.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/tasks/tasks.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/dto/create-task-dto.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -3251,6 +3263,7 @@
         "../src/tasks/tasks.service.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/dto/create-task-dto.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6048,12 +6061,17 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/dto/get-task-filter.dto.ts": [
+        "../src/tasks/task.model.ts"
+      ],
       "../src/tasks/tasks.service.ts": [
         "../src/tasks/task.model.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
         "../src/tasks/dto/create-task-dto.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
         "../src/tasks/tasks.service.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
         "../src/tasks/task.model.ts",
         "../src/tasks/dto/create-task-dto.ts"
       ],
@@ -7264,7 +7282,8 @@
       "../node_modules/@nestjs/common/index.d.ts",
       "../src/tasks/task.model.ts",
       "../src/tasks/dto/create-task-dto.ts",
-      "../src/tasks/tasks.service.ts",
+      "../src/tasks/dto/get-task-filter.dto.ts",
+      "../src/tasks/tasks.controller.ts",
       "../src/tasks/tasks.module.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
@@ -7390,7 +7409,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.controller.ts"
+      "../src/tasks/tasks.service.ts"
     ]
   },
   "version": "3.8.3"
