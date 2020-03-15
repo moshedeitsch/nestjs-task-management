@@ -16,6 +16,9 @@ let TasksService = class TasksService {
     getAllTasks() {
         return this.tasks;
     }
+    getTaskById(id) {
+        return this.tasks.find(task => task.id === id);
+    }
     createTask(createTaskDto) {
         const { title, description } = createTaskDto;
         const task = {
@@ -26,6 +29,9 @@ let TasksService = class TasksService {
         };
         this.tasks.push(task);
         return task;
+    }
+    deleteTask(id) {
+        this.tasks = this.tasks.filter(task => task.id !== id);
     }
 };
 TasksService = __decorate([

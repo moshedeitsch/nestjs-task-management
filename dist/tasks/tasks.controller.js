@@ -22,8 +22,14 @@ let TaskController = class TaskController {
     getAllTasks() {
         return this.tasksService.getAllTasks();
     }
+    getTaskById(id) {
+        return this.tasksService.getTaskById(id);
+    }
     cretaeTask(createTaskDto) {
         return this.tasksService.createTask(createTaskDto);
+    }
+    deleteTask(id) {
+        this.tasksService.deleteTask(id);
     }
 };
 __decorate([
@@ -33,14 +39,28 @@ __decorate([
     __metadata("design:returntype", Array)
 ], TaskController.prototype, "getAllTasks", null);
 __decorate([
+    common_1.Get("/:id"),
+    __param(0, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], TaskController.prototype, "getTaskById", null);
+__decorate([
     common_1.Post(),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_task_dto_1.CreateTaskDto]),
     __metadata("design:returntype", Object)
 ], TaskController.prototype, "cretaeTask", null);
+__decorate([
+    common_1.Delete('/:id'),
+    __param(0, common_1.Param('id')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String]),
+    __metadata("design:returntype", void 0)
+], TaskController.prototype, "deleteTask", null);
 TaskController = __decorate([
-    common_1.Controller('tasks'),
+    common_1.Controller("tasks"),
     __metadata("design:paramtypes", [tasks_service_1.TasksService])
 ], TaskController);
 exports.TaskController = TaskController;
