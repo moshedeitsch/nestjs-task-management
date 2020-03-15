@@ -909,13 +909,17 @@
         "version": "746ab6696964ed038078f04f17108bab3068f86d1bfe5269d375dbdfaf7efa91",
         "signature": "2aa6e1c2d60503d26eaa386f07f68542d826aa556fc2d4cb78e2f72560d2aba1"
       },
+      "../src/tasks/dto/create-task-dto.ts": {
+        "version": "3b696c8fb77178765df56b9c87d6303145c364ea33344bd4c17be352b522d807",
+        "signature": "b1d26f03607e121c7317f85d8725d2562ea98694c85f768a3db85be2488756e3"
+      },
       "../src/tasks/tasks.service.ts": {
-        "version": "c58d1f018149f5710302b82f5c0f173e739edc415257319c92f631dc43981147",
-        "signature": "3707805e5aa14537822ecf1fca0cb2e826c7050d2a0e23be283bfbc972c7fadf"
+        "version": "feeedeccaca8f9b0f7e335efac3397f08c0ad3262f63308632d7bf0d4b26f7c5",
+        "signature": "90b2b4c9c13028970b65228c17f54307431eaad8f4258188ae93c0f76830106e"
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "0d793d17589a39bc742e36156b17c5f84405fc6790d9863ddbc4d9fe6a6ec399",
-        "signature": "c0a62ab509d6d8b8862a107cbf72d29c8e432aad208940db7ae769e02331930b"
+        "version": "9ffd193e96f66a95f043aeacfd75b761fff5e2b8858fdfec1ca7efa0003659c6",
+        "signature": "378c75a61e5db29a1c8e859666e78782f13d5b8bcdd206717f650c4be171fa41"
       },
       "../src/tasks/tasks.module.ts": {
         "version": "3266a63526e1da22246a5729cb07a08c3d82d0a3cf56d44627009d3436f84efc",
@@ -3227,9 +3231,16 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/dto/create-task-dto.ts": [
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/tasks/tasks.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/tasks/task.model.ts",
+        "../src/tasks/dto/create-task-dto.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -3239,6 +3250,7 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/tasks/tasks.service.ts",
         "../src/tasks/task.model.ts",
+        "../src/tasks/dto/create-task-dto.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -6037,11 +6049,13 @@
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../src/tasks/tasks.service.ts": [
-        "../src/tasks/task.model.ts"
+        "../src/tasks/task.model.ts",
+        "../src/tasks/dto/create-task-dto.ts"
       ],
       "../src/tasks/tasks.controller.ts": [
         "../src/tasks/tasks.service.ts",
-        "../src/tasks/task.model.ts"
+        "../src/tasks/task.model.ts",
+        "../src/tasks/dto/create-task-dto.ts"
       ],
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -7249,9 +7263,7 @@
       "../node_modules/@nestjs/common/utils/index.d.ts",
       "../node_modules/@nestjs/common/index.d.ts",
       "../src/tasks/task.model.ts",
-      "../src/tasks/tasks.service.ts",
-      "../src/tasks/tasks.module.ts",
-      "../src/app.module.ts",
+      "../src/tasks/dto/create-task-dto.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
       "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
@@ -7375,7 +7387,10 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/tasks.controller.ts"
+      "../src/tasks/tasks.controller.ts",
+      "../src/tasks/tasks.module.ts",
+      "../src/tasks/tasks.service.ts",
+      "../src/app.module.ts"
     ]
   },
   "version": "3.8.3"
