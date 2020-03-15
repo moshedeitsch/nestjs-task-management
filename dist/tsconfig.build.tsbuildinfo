@@ -914,12 +914,12 @@
         "signature": "b1d26f03607e121c7317f85d8725d2562ea98694c85f768a3db85be2488756e3"
       },
       "../src/tasks/tasks.service.ts": {
-        "version": "85b5d0b6ec83b7ea5bdd130c7da013e53f0edb95b2971c463f5e65097a73df53",
-        "signature": "a9b6406581fb3bf1655dc0da8cdfb108638302b37c1fc3b87bf8f6accec88644"
+        "version": "b896be1390dfebffba1232e20fe2121e59b49c6196a79b21c731f6bab274250d",
+        "signature": "f3151136ca4549b7b098b97607fb8fe7969765b05ec6cca855ca877886aefc38"
       },
       "../src/tasks/tasks.controller.ts": {
-        "version": "be6c933ba045b6bbe37d9d8a9af6ab552392fdc870e1bdd4c1fc0edc8c5a3715",
-        "signature": "bdb8d7e1b9e98b881dbb900af6b45ea6cbd138fb7d59a0ad12d7f0dd777225cb"
+        "version": "917ecc05e337aab234cbc57b7d1db4e82494c55f87f51391815f1dc0ff74fae1",
+        "signature": "0f002d1e3b3bee69ede6b14eb7de1ce184aa6402c28e9399157f9d8368ce137d"
       },
       "../src/tasks/tasks.module.ts": {
         "version": "3266a63526e1da22246a5729cb07a08c3d82d0a3cf56d44627009d3436f84efc",
