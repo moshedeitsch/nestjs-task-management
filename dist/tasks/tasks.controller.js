@@ -17,6 +17,7 @@ const tasks_service_1 = require("./tasks.service");
 const task_model_1 = require("./task.model");
 const create_task_dto_1 = require("./dto/create-task-dto");
 const get_task_filter_dto_1 = require("./dto/get-task-filter.dto");
+const task_status_validation_pipe_1 = require("./task-status-validation.pipe");
 let TaskController = class TaskController {
     constructor(tasksService) {
         this.tasksService = tasksService;
@@ -44,7 +45,7 @@ let TaskController = class TaskController {
 };
 __decorate([
     common_1.Get(),
-    __param(0, common_1.Query()),
+    __param(0, common_1.Query(common_1.ValidationPipe)),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [get_task_filter_dto_1.GetTasksFilterDto]),
     __metadata("design:returntype", Array)
@@ -58,6 +59,7 @@ __decorate([
 ], TaskController.prototype, "getTaskById", null);
 __decorate([
     common_1.Post(),
+    common_1.UsePipes(common_1.ValidationPipe),
     __param(0, common_1.Body()),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [create_task_dto_1.CreateTaskDto]),
@@ -72,7 +74,8 @@ __decorate([
 ], TaskController.prototype, "deleteTask", null);
 __decorate([
     common_1.Patch("/:id/status"),
-    __param(0, common_1.Param("id")), __param(1, common_1.Body("status")),
+    __param(0, common_1.Param("id")),
+    __param(1, common_1.Body("status", task_status_validation_pipe_1.TaskStatusValidationPipe)),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String, String]),
     __metadata("design:returntype", void 0)
