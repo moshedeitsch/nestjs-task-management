@@ -1,1 +1,1 @@
-{"version":3,"file":"task.model.js","sourceRoot":"","sources":["../../src/tasks/task.model.ts"],"names":[],"mappings":";;AAOA,IAAY,SAIX;AAJD,WAAY,SAAS;IACjB,0BAAa,CAAA;IACb,uCAA0B,CAAA;IAC1B,0BAAa,CAAA;AACjB,CAAC,EAJW,SAAS,GAAT,iBAAS,KAAT,iBAAS,QAIpB"}
+{"version":3,"file":"task.model.js","sourceRoot":"","sources":["../../src/tasks/task.model.ts"],"names":[],"mappings":";;AAOA,IAAY,UAIX;AAJD,WAAY,UAAU;IAClB,2BAAa,CAAA;IACb,wCAA0B,CAAA;IAC1B,2BAAa,CAAA;AACjB,CAAC,EAJW,UAAU,GAAV,kBAAU,KAAV,kBAAU,QAIrB"}

@@ -1,5 +1,5 @@
-import { Tasktatus } from '../task.model';
+import { Taskstatus } from '../task-status.enum';
 export declare class GetTasksFilterDto {
-    status: Tasktatus;
+    status: Taskstatus;
     search: string;
 }
