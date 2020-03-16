@@ -8,7 +8,28 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 const task_entity_1 = require("./task.entity");
 const typeorm_1 = require("typeorm");
+const task_status_enum_1 = require("./task-status.enum");
 let TaskRepository = class TaskRepository extends typeorm_1.Repository {
+    async getTasks(filterDTO) {
+        const { status, search } = filterDTO;
+        const query = this.createQueryBuilder('task');
+        if (status) {
+            query.andWhere('task.status = :status', { status });
+        }
+        if (search) {
+            query.andWhere('(task.title LIKE :search OR task.description LIKE :search)', { search: `%${search}%` });
+        }
+        return await query.getMany();
+    }
+    async createTask(createTaskDto) {
+        const { title, description } = createTaskDto;
+        const task = new task_entity_1.Task();
+        task.title = title;
+        task.description = description;
+        task.status = task_status_enum_1.Taskstatus.OPEN;
+        await task.save();
+        return task;
+    }
 };
 TaskRepository = __decorate([
     typeorm_1.EntityRepository(task_entity_1.Task)

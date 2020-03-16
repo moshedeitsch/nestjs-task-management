@@ -989,18 +989,6 @@
         "version": "a91570c0c6270062f2e10432a3337b2367adaacbb81f9d0f7d50ff98ffbb6f16",
         "signature": "56dd034222b07f02512756f353a2956de44cb442d21f7af0d9dbeff4912e687f"
       },
-      "../src/tasks/tasks.service.ts": {
-        "version": "855d5dbcaf313174456c613ea5d0f385c4bb9d6d5cb70d105ff017cd6833200c",
-        "signature": "c7b7a4ec8c1f2ed88fc70b256e45ddf8458cb295debebd89fd4e302a8d749695"
-      },
-      "../src/tasks/pieps/task-status-validation.pipe.ts": {
-        "version": "62d006bc9368838a0b82bc0a09469c24ebeb53103673159d552191af2453d39b",
-        "signature": "408863a1a8068e2c99a53b0af746d2f8ac74d4c4172d5dff2a788ca585c35d00"
-      },
-      "../src/tasks/tasks.controller.ts": {
-        "version": "23b33feb6c3878e5a3180405ee759fa3201dcda594a6e59e26d59a529289b9de",
-        "signature": "f63b16e019fefdfc91828aa6ff7f43243679f2405c33bc88d5323daf3259c8a0"
-      },
       "../node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": {
         "version": "222ebf19b1260582fd2023a65c5b7da77f730021f05afb9c4ead4b0b339a8c98",
         "signature": "222ebf19b1260582fd2023a65c5b7da77f730021f05afb9c4ead4b0b339a8c98"
@@ -2001,6 +1989,14 @@
         "version": "26d590f7fc94dc8bd476aab67a6047b39a72b0dcbdb7c5ce1dbd369762d63e4f",
         "signature": "26d590f7fc94dc8bd476aab67a6047b39a72b0dcbdb7c5ce1dbd369762d63e4f"
       },
+      "../src/tasks/task.entity.ts": {
+        "version": "46a2f74b5ead4922c8c12b1bf11a7cf4d1bef7b200aa2cbe2c86c5639608923e",
+        "signature": "0a06bd32080b8b05f239e6530ff40cd76e02b1429ce4044ab20aafc6df995ecd"
+      },
+      "../src/tasks/task.repository.ts": {
+        "version": "e1fbf0d156d4ee6f20dff52d8de825a8ba52d6c0734799de4e56b88161c61b93",
+        "signature": "2437c216e65a99ba3f035231e25459ed35b996000d23fbd8d27cf1388a6cf2e5"
+      },
       "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts": {
         "version": "d7c96b1fc407d8fb5e973d594bd93771677bcacc0298f00dae5e642b0a30ad27",
         "signature": "d7c96b1fc407d8fb5e973d594bd93771677bcacc0298f00dae5e642b0a30ad27"
@@ -2033,13 +2029,17 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
-      "../src/tasks/task.entity.ts": {
-        "version": "46a2f74b5ead4922c8c12b1bf11a7cf4d1bef7b200aa2cbe2c86c5639608923e",
-        "signature": "0a06bd32080b8b05f239e6530ff40cd76e02b1429ce4044ab20aafc6df995ecd"
+      "../src/tasks/tasks.service.ts": {
+        "version": "c8af80d90fa746cc3f59d8b3c4e4c1c995ef781dc7d30f96a7c21e440f1e4d4c",
+        "signature": "3bdaaf10e3732404b895ddcc8b9c62fcb9e5d00d8ae38324c7800ff1e9630cca"
       },
-      "../src/tasks/task.repository.ts": {
-        "version": "676519071b9ec144c6cf2761eb04ae307c86793a068178f92d627080dd57dea1",
-        "signature": "fec2312ecb5be0effda940a9c2769ee218a8c495298d1ad1adc85a9cd352223d"
+      "../src/tasks/pieps/task-status-validation.pipe.ts": {
+        "version": "62d006bc9368838a0b82bc0a09469c24ebeb53103673159d552191af2453d39b",
+        "signature": "408863a1a8068e2c99a53b0af746d2f8ac74d4c4172d5dff2a788ca585c35d00"
+      },
+      "../src/tasks/tasks.controller.ts": {
+        "version": "280ea75711f1602f3296ebf00a611195c6587354358d1ad37475cac66ccfb0cf",
+        "signature": "b4e47bf9169a205b09f62c0ac81129a6c24a59b1a64fc0cd3288e969c1995a5f"
       },
       "../src/tasks/tasks.module.ts": {
         "version": "1315bb52b27bd6ce6f0e0b6499f6c95578b841d3b8f781c046f368b05dfbdbe3",
@@ -4511,34 +4511,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/tasks/tasks.service.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/tasks/dto/create-task-dto.ts",
-        "../src/tasks/dto/get-task-filter.dto.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/tasks/pieps/task-status-validation.pipe.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/tasks/task-status.enum.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "../src/tasks/tasks.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../src/tasks/tasks.service.ts",
-        "../src/tasks/dto/create-task-dto.ts",
-        "../src/tasks/dto/get-task-filter.dto.ts",
-        "../src/tasks/pieps/task-status-validation.pipe.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -6764,6 +6736,25 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/task.entity.ts": [
+        "../node_modules/typeorm/index.d.ts",
+        "../src/tasks/task-status.enum.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/tasks/task.repository.ts": [
+        "../src/tasks/task.entity.ts",
+        "../node_modules/typeorm/index.d.ts",
+        "../src/tasks/dto/create-task-dto.ts",
+        "../src/tasks/task-status.enum.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -6829,17 +6820,35 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/tasks/task.entity.ts": [
-        "../node_modules/typeorm/index.d.ts",
+      "../src/tasks/tasks.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/dto/create-task-dto.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
+        "../src/tasks/task.repository.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/tasks/task.entity.ts",
         "../src/tasks/task-status.enum.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/tasks/task.repository.ts": [
+      "../src/tasks/pieps/task-status-validation.pipe.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/task-status.enum.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/tasks/tasks.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/tasks/tasks.service.ts",
+        "../src/tasks/dto/create-task-dto.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
+        "../src/tasks/pieps/task-status-validation.pipe.ts",
         "../src/tasks/task.entity.ts",
-        "../node_modules/typeorm/index.d.ts",
+        "../src/tasks/task-status.enum.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -9792,13 +9801,6 @@
       "../src/tasks/dto/get-task-filter.dto.ts": [
         "../src/tasks/task-status.enum.ts"
       ],
-      "../src/tasks/pieps/task-status-validation.pipe.ts": [
-        "../src/tasks/task-status.enum.ts",
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../src/tasks/tasks.controller.ts": [
-        "../src/tasks/tasks.service.ts"
-      ],
       "../node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -12024,6 +12026,16 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../src/tasks/task.entity.ts": [
+        "../src/tasks/task-status.enum.ts",
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/tasks/task.repository.ts": [
+        "../src/tasks/dto/get-task-filter.dto.ts",
+        "../src/tasks/task.entity.ts",
+        "../src/tasks/dto/create-task-dto.ts",
+        "../node_modules/typeorm/index.d.ts"
+      ],
       "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -12089,13 +12101,23 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/tasks/task.entity.ts": [
-        "../src/tasks/task-status.enum.ts",
-        "../node_modules/typeorm/index.d.ts"
+      "../src/tasks/tasks.service.ts": [
+        "../src/tasks/task.repository.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
+        "../src/tasks/task.entity.ts",
+        "../src/tasks/dto/create-task-dto.ts",
+        "../src/tasks/task-status.enum.ts"
       ],
-      "../src/tasks/task.repository.ts": [
-        "../node_modules/typeorm/index.d.ts",
-        "../src/tasks/task.entity.ts"
+      "../src/tasks/pieps/task-status-validation.pipe.ts": [
+        "../src/tasks/task-status.enum.ts",
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/tasks/tasks.controller.ts": [
+        "../src/tasks/tasks.service.ts",
+        "../src/tasks/dto/get-task-filter.dto.ts",
+        "../src/tasks/task.entity.ts",
+        "../src/tasks/dto/create-task-dto.ts",
+        "../src/tasks/task-status.enum.ts"
       ],
       "../src/tasks/config/typeorm.config.ts": [
         "../node_modules/@nestjs/typeorm/index.d.ts"
@@ -13326,9 +13348,6 @@
       "../src/tasks/dto/create-task-dto.ts",
       "../src/tasks/task-status.enum.ts",
       "../src/tasks/dto/get-task-filter.dto.ts",
-      "../src/tasks/tasks.service.ts",
-      "../src/tasks/pieps/task-status-validation.pipe.ts",
-      "../src/tasks/tasks.controller.ts",
       "../node_modules/typeorm/schema-builder/options/tablecolumnoptions.d.ts",
       "../node_modules/typeorm/schema-builder/table/tablecolumn.d.ts",
       "../node_modules/typeorm/common/objectliteral.d.ts",
@@ -13579,6 +13598,8 @@
       "../node_modules/typeorm/naming-strategy/defaultnamingstrategy.d.ts",
       "../node_modules/typeorm/util/promiseutils.d.ts",
       "../node_modules/typeorm/index.d.ts",
+      "../src/tasks/task.entity.ts",
+      "../src/tasks/task.repository.ts",
       "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
       "../node_modules/@nestjs/typeorm/dist/common/typeorm.utils.d.ts",
       "../node_modules/@nestjs/typeorm/dist/common/index.d.ts",
@@ -13587,9 +13608,10 @@
       "../node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts",
       "../node_modules/@nestjs/typeorm/dist/index.d.ts",
       "../node_modules/@nestjs/typeorm/index.d.ts",
-      "../src/tasks/task.entity.ts",
-      "../src/tasks/task.repository.ts",
+      "../src/tasks/tasks.service.ts",
+      "../src/tasks/pieps/task-status-validation.pipe.ts",
       "../src/tasks/tasks.module.ts",
+      "../src/tasks/config/typeorm.config.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
@@ -13714,7 +13736,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/tasks/config/typeorm.config.ts"
+      "../src/tasks/tasks.controller.ts"
     ]
   },
   "version": "3.8.3"
