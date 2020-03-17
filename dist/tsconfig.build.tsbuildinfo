@@ -2054,12 +2054,12 @@
         "signature": "89c5c2702aa67d1e0649595ee1158802a670f851bc20f1718f45e1b3d1fb8bad"
       },
       "../src/auth/user.entity.ts": {
-        "version": "2d8bc9867a564680de5e5cd8f9a03dfbd8a730711e1ccf28b68b42f8f5ea2106",
-        "signature": "c954094fcc939529bd954e366fb8e69b3c5cbe5a07f80666938f4e0d69da7325"
+        "version": "7b21bccbb202bd3d77faf58b8888156a887fbe89a6075df528e44c23a288b848",
+        "signature": "b5be5e0651b093933af9edb617504b874ecc6fc15948c351925836ec10a24a57"
       },
       "../src/auth/user.repository.ts": {
-        "version": "80cfdcbade5fc96ea578539e3a35044a8c6ffb1f8a8549b7c8d411d316d768e4",
-        "signature": "c40827d17b86c19120384f0768c887800daa81ba1905b1d0b4a37cbf483a3046"
+        "version": "0e5a1c691f3cea660a7545106e6abb4500d217a782260acf3314d940e8b18e89",
+        "signature": "931034c0d3e0a6281167083f2625f86fed53d3286742e4db004d374fd2a27c38"
       },
       "../src/auth/auth.service.ts": {
         "version": "b23ee75525c8dc94ca9b289085ed4e64956ecf2ce5d34cf47645dfffba069572",
