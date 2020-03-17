@@ -2054,20 +2054,20 @@
         "signature": "89c5c2702aa67d1e0649595ee1158802a670f851bc20f1718f45e1b3d1fb8bad"
       },
       "../src/auth/user.entity.ts": {
-        "version": "7b21bccbb202bd3d77faf58b8888156a887fbe89a6075df528e44c23a288b848",
-        "signature": "b5be5e0651b093933af9edb617504b874ecc6fc15948c351925836ec10a24a57"
+        "version": "b3cb4abc347aacce87076bdc6058c9763c1756146cda616a0ee586027acbd3f5",
+        "signature": "590c17d1e19b3e0f7d427e395e1dc23eed75a6ff6b65dc84e56d284ccf25a136"
       },
       "../src/auth/user.repository.ts": {
-        "version": "0e5a1c691f3cea660a7545106e6abb4500d217a782260acf3314d940e8b18e89",
-        "signature": "931034c0d3e0a6281167083f2625f86fed53d3286742e4db004d374fd2a27c38"
+        "version": "fb459573273ebc63705ec947a7b9430a9076ff6703027676581e1941c303c2bd",
+        "signature": "ffc16cd98f1c08d6a9cda13cb430ef5c4829aa6afa0079e6ce81bf7749b949c8"
       },
       "../src/auth/auth.service.ts": {
-        "version": "b23ee75525c8dc94ca9b289085ed4e64956ecf2ce5d34cf47645dfffba069572",
-        "signature": "06078af8113d2fb8f5f6afaa82f9e2b1908b227bfeca526c3307eae527eb6d40"
+        "version": "3373f240614adde70e0aa43a10bc41be45c569e4a9a504c6cc8ba30d22e5abda",
+        "signature": "06b83227f1d412c0314cfb359e3b64b875f32e78fd4ae1d93a79b33b4c27f043"
       },
       "../src/auth/auth.controller.ts": {
-        "version": "4cd2f78c9e4f242f895115de6e432a8808f7465729a600d82bae7bd8af8ff71d",
-        "signature": "bd661c0d74299a842fc794245f071509bf6c78f09adcf8ac2a6c76c2a6f19a82"
+        "version": "51139afe3808adc87acd32feaeff002958fcca7efa513bcf8383249e8d9361a5",
+        "signature": "b6949486d1d5e0ae3da9ce68afc935dbb4ad7e9793ba838fca71f7824a65b254"
       },
       "../src/auth/auth.module.ts": {
         "version": "148ed61d614b8ffcb059d9acdd82d1071aed18408f75722429af2267a93beb6f",
@@ -6915,6 +6915,7 @@
         "../src/auth/user.entity.ts",
         "../src/auth/dto/auth.credentials.dto.ts",
         "../node_modules/@nestjs/common/index.d.ts",
+        "../src/auth/auth.controller.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -13710,7 +13711,7 @@
       "../src/config/typeorm.config.ts",
       "../src/auth/dto/auth.credentials.dto.ts",
       "../src/auth/user.entity.ts",
-      "../src/auth/auth.service.ts",
+      "../src/auth/user.repository.ts",
       "../src/auth/auth.controller.ts",
       "../src/auth/auth.module.ts",
       "../src/app.module.ts",
@@ -13837,7 +13838,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/auth/user.repository.ts"
+      "../src/auth/auth.service.ts"
     ]
   },
   "version": "3.8.3"
