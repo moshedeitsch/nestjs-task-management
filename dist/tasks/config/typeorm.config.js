@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.typeormConfig = {
+exports.typeOrmConfig = {
     type: 'postgres',
     host: 'localhost',
     port: 5432,
